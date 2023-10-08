@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
   }
+
   body{
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
   }
+  
   header{
     text-align: center;
     height: 116px;
@@ -15,18 +17,21 @@
     align-items: center;
     background-color: white;
   }
-  header div{
+
+  header .imgs{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 457px;
   }
+  
   header img{
     display: flex;
     width: 230px;
     height: 30px;
-    
+    cursor: pointer;
   }
+
   header ul{
     gap: 15px;
     display: flex;
@@ -36,70 +41,111 @@
     color: #1b1b1b;
     width: 900px;
   }
+
   header ul li{
-    width: 110px;
-    cursor: pointer;
+    width: 100px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
   }
+
   .icons{
     display: flex;
     gap: 25px;
-    width: 160px;
+    height: 20px;
+    width: 180px;
   }
-  .submenu1{
+
+  .icons i{
+    cursor: pointer;
+  }
+
+  .icons p{
+    cursor: pointer;
+  }
+
+  #home{
+  border-bottom: 1px solid black;
+  width: 40px;
+  display: flex;
+  cursor: pointer;
+  }
+
+  .mainsub{
+    cursor: pointer;
+  }
+
+.submenu1{
     display: none;
   }
-  .submenu1 ul li{
-    cursor: pointer;
-    color: black;
-    line-height: 19px;
-    font-size: 18px;
-  }
+
   header ul li:hover .submenu1{
     display: block;
     position: absolute;
     display: flex;
     justify-content: start;
-    height: 300px;
-    width: 180px;
+    height: 340px;
+    width: 220px;
+    top: 68px;
   }
-  header ul li:hover .submenu1 ul{
+
+  .submenu1 ul{
     display: block;
     flex-direction: column;
-    padding-top: 20px; 
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    width: 120px;
+    width: 210px;
   }
+
+.submenu1 ul li{
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: left;
+    width: 150px;
+    line-height: 19px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+  }
+
 .submenu3{
   display: none;
 }
+
 header ul li:hover .submenu3{
-    display: block;
-    position: absolute;
-    display: flex;
-    justify-content: start;
-    height: 150px;
-    width: 180px;
-}
-.submenusec3{
+  display: block;
+  position: absolute;
   display: flex;
-    flex-direction: column;
-    width: 130px;
-    gap: 20px;
+  justify-content: start;
+  height: 180px;
+  width: 220px;
+  top: 68px;
+  background-color: white;
 }
-.submenusec3 p{
-  font-size: 18px;
+
+.submenu3 ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
 }
+
+.submenu3 ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 90px;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
   .submenu2{
     display: none;
-    gap: 250px;
-  }
-  .submenusec2{
-    display: flex;
-    align-items: start;
-    gap: 225px;
-    width: 1500px;
+    gap: 210px;
   }
 
   header ul li:hover .submenu2{
@@ -107,12 +153,34 @@ header ul li:hover .submenu3{
     position: absolute;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 1500px;
     height: 500px;
-    top: 60px;
+    top: 68px;
     left: 100px;
+    background-color: white;
   }
- 
+
+  .submenu2 ul{
+    display: block;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 120px;
+    height: 300px;
+  }
+
+  .submenu2 ul li{
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: left;
+    width: 190px;
+    line-height: 19px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+  }
 
   .ProductTypes{
     display: flex;
@@ -121,56 +189,358 @@ header ul li:hover .submenu3{
     flex-direction: column;
     width: 170px;
     top: 150px;
-    row-gap: 20px;
   }
+
   .ProductTypes strong{
     line-height: 24px;
     font-size: 22px;
   }
+
   .ProductTypes p{
     line-height: 19px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   .submenu4{
     display: none;
   }
+
   header ul li:hover .submenu4{
-      display: block;
-      position: absolute;
-      display: flex;
-      justify-content: start;
-      background-color: aqua;
-      height: 290px;
-      width: 200px;
-  }
-  .submenusec4{
-    display: flex;
-      flex-direction: column;
-      width: 110px;
-      height: 230px;
-      gap: 10px;
-      background-color: aquamarine;
-  }
-  .submenusec4 p{
-    font-size: 18px;
-  }
-  .submenuth4{
-    display: none;
-  }
-  header ul li:hover .submenuth4{
       display: block;
       position: absolute;
       display: flex;
       justify-content: start;
       height: 220px;
       width: 200px;
+      top: 68px;
+      background-color:white;
   }
-  .submenuth4sec{
+
+  .submenu4 ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  }
+
+  .submenu4 ul li{
+    cursor: pointer;
+    color: black;
     display: flex;
-      flex-direction: column;
-      width: 130px;
-    }
-    .submenuth4sec p{
-      font-size: 18px;
-    }
+    justify-content: left;
+    width: 130px;
+    line-height: 19px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+  }
+
+.submenuth4{
+display: none;
+}
+
+#portfoliolayouts:hover .submenuth4{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 230px;
+  width: 200px;
+  top: 120px;
+  left: 200px;
+  background-color: white;
+}
+
+.submenunt5{
+  display: none;
+}
+
+#portfoliosingle:hover .submenunt5{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 220px;
+  width: 200px;
+  top: 150px;
+  left: 200px;
+  background-color: white;
+}
+
+.submenunt5 ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 150px;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+  .submenu6{
+    display: none;
+  }
+
+  header ul li:hover .submenu6{
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    height: 210px;
+    width: 200px;
+    top: 68px;
+    background-color: white;
+  }
+  .submenu6 ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  }
+
+  .submenu6 ul li{
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: left;
+    width: 130px;
+    line-height: 19px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .submenuth6{
+    display: none;
+  }
+
+  #posttypes:hover .submenuth6{
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    height: 220px;
+    width: 200px;
+    top: 150px;
+    left: 200px;
+    background-color: white;
+  }
+
+  .submenuth6 ul{
+    display: block;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+  }
+
+  .submenuth6 ul li{
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: left;
+    width: 140px;
+    line-height: 19px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .submenu7{
+    display: none;
+  }
+
+  header ul li:hover .submenu7{
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    height: 220px;
+    width: 200px;
+    top: 68px;
+    background-color:white;
+}
+
+.submenu7 ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+}
+
+.submenu7 ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.submenusec7{
+  display: none;
+}
+
+#classic:hover .submenusec7{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 220px;
+  width: 200px;
+  top: 20px;
+  right: 200px;
+  background-color:white;
+}
+
+.submenusec7 ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.submenusec7 ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.submenu8{
+  display: none;
+}
+
+#infographic:hover .submenu8{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 250px;
+  width: 200px;
+  top: 50px;
+  right: 200px;
+  background-color:white;
+}
+
+.submenu8 ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.submenu8 ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.submenu9{
+  display: none;
+}
+
+#interactive:hover .submenu9{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 250px;
+  width: 200px;
+  top: 90px;
+  right: 200px;
+  background-color:white;
+}
+
+.submenu9 ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.submenu9 ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.submenu10{
+  display: none;
+}
+
+#typography:hover .submenu10{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 320px;
+  width: 200px;
+  top: 120px;
+  right: 200px;
+  background-color:white;
+}
+
+.submenu10 ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.submenu10 ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.submenu11{
+  display: none;
+}
+
+#cart:hover .submenu11{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 320px;
+  width: 200px;
+  top: 120px;
+  right: 200px;
+  background-color:white;
+}
