@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -86,6 +86,9 @@
     height: 340px;
     width: 220px;
     top: 68px;
+    animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
   }
 
   .submenu1 ul{
@@ -121,6 +124,9 @@ header ul li:hover .submenu3{
   width: 220px;
   top: 68px;
   background-color: white;
+  animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 .submenu3 ul{
@@ -146,6 +152,7 @@ header ul li:hover .submenu3{
   .submenu2{
     display: none;
     gap: 210px;
+    
   }
 
   header ul li:hover .submenu2{
@@ -158,7 +165,10 @@ header ul li:hover .submenu3{
     height: 500px;
     top: 68px;
     left: 100px;
-    background-color: white;
+    background-color: white;  
+    animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
   }
 
   .submenu2 ul{
@@ -180,6 +190,14 @@ header ul li:hover .submenu3{
     line-height: 19px;
     font-size: 14px;
     font-family: Montserrat, sans-serif;
+  }
+  @keyframes anime{
+      from {
+          max-height: 0;
+      }
+      to {
+          max-height: 500px;
+      }
   }
 
   .ProductTypes{
@@ -215,6 +233,9 @@ header ul li:hover .submenu3{
       width: 200px;
       top: 68px;
       background-color:white;
+      animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
   }
 
   .submenu4 ul{
@@ -239,6 +260,7 @@ header ul li:hover .submenu3{
 
 .submenuth4{
 display: none;
+
 }
 
 #portfoliolayouts:hover .submenuth4{
@@ -251,6 +273,9 @@ display: none;
   top: 120px;
   left: 200px;
   background-color: white;
+  animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 .submenunt5{
@@ -267,6 +292,9 @@ display: none;
   top: 150px;
   left: 200px;
   background-color: white;
+  animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 .submenunt5 ul li{
@@ -293,6 +321,9 @@ display: none;
     width: 200px;
     top: 68px;
     background-color: white;
+    animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
   }
   .submenu6 ul{
   display: block;
@@ -328,6 +359,9 @@ display: none;
     top: 150px;
     left: 200px;
     background-color: white;
+    animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
   }
 
   .submenuth6 ul{
@@ -363,6 +397,9 @@ display: none;
     width: 200px;
     top: 68px;
     background-color:white;
+    animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 .submenu7 ul{
@@ -399,6 +436,9 @@ display: none;
   top: 20px;
   right: 200px;
   background-color:white;
+  animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 .submenusec7 ul{
@@ -435,6 +475,9 @@ display: none;
   top: 50px;
   right: 200px;
   background-color:white;
+  animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 .submenu8 ul{
@@ -471,6 +514,9 @@ display: none;
   top: 90px;
   right: 200px;
   background-color:white;
+  animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 .submenu9 ul{
@@ -507,6 +553,9 @@ display: none;
   top: 120px;
   right: 200px;
   background-color:white;
+  animation-name: anime;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 .submenu10 ul{
